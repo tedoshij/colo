@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract COLO is ERC20 {
 
     constructor() ERC20("COLO", "COLO") payable {
-        _mint(msg.sender, 1000 * 10 ** decimals());              
+        _mint(msg.sender, 888888888888 * 10 ** decimals());              
     }
     event BatchTransferCOLO(address indexed _caller, uint256 _recipientCount, uint256 _totalTokensSent);    
 	 
